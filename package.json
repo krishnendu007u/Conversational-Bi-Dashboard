@@ -7,9 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+<<<<<<< HEAD
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+=======
+    "preview": "vite preview"
+>>>>>>> c9edc28e28f031204be72e2067892442304b594b
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -28,7 +32,10 @@
     "eslint": "^9.39.4",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+<<<<<<< HEAD
     "gh-pages": "^6.3.0",
+=======
+>>>>>>> c9edc28e28f031204be72e2067892442304b594b
     "globals": "^17.4.0",
     "vite": "^8.0.0"
   }
