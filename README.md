@@ -60,3 +60,4 @@ VITE_GEMINI_API_KEY=your_new_api_key_here
 npm run dev
 \`\`\`
 >>>>>>> c9edc28e28f031204be72e2067892442304b594b
+

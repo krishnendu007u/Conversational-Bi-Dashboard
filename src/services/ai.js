@@ -6,7 +6,8 @@ const apiKeys = [
   import.meta.env.VITE_GEMINI_API_KEY_1,
   import.meta.env.VITE_GEMINI_API_KEY_2,
   import.meta.env.VITE_GEMINI_API_KEY_3,
-  import.meta.env.VITE_GEMINI_API_KEY_4
+  import.meta.env.VITE_GEMINI_API_KEY_4,
+  import.meta.env.VITE_GEMINI_API_KEY_5,
 ];
 
 function getRandomKey() {
@@ -47,7 +48,7 @@ CRITICAL INSTRUCTIONS:
 EXPECTED JSON FORMAT:
 {
   "sql": "SELECT category, SUM(sales) as total_sales FROM data GROUP BY category",
-  "chartType": "bar",
+  "chartType": "bar" "pie",
   "title": "Total Sales by Category",
   "xAxisKey": "category",
   "yAxisKeys": ["total_sales"],
